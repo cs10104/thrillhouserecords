@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ThrillHouse Records</title>
+    <link rel="stylesheet" href="./styles.css"/>
+  </head>
+  <body>
+    <div id="main">
+      <div class="container">
+        <nav>
+          <img src="/images/TRLogo (3).png" alt="" class="logo" />
+          <ul class="nav-list">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="genres.html">Genres</a></li>
+            <li><a href="events.html">Events</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><button class="btn btn-secondary">415-826-0223</button></li>
+          </ul>
+          
+        </nav>
+
+        <div class="main-content">
+          <h1 class="intro-heading">Established 2007</h1>
+          <h1 class="main-heading">ThrillHouse Records</h1>
+          <p>
+            SF's Punk Rock record store! Community run and 100% DIY! 
+          </p>
+          
+        </div>
+      </div>
+    </div>
+
+    <section id="vinyls">
+      <div class="container">
+        <div class="section-title">
+          <h1>NEW RELEASES!</h1>
+          <div class="line"></div>
+        </div>
+        <div class="vinyls">
+          <div class="vinyl">
+            <img src="/images/BlackMidi.webp" alt="" />
+            <h3>Black Midi - Schlagenheim </h3>
+            <p>
+              $25
+            </p>
+          </div>
+          <div class="vinyl">
+            <img src="/images/feelies.jpg" alt="" />
+            <h3>The Feelies - Crazy Rhythms </h3>
+            <p>
+              $35
+            </p>
+          </div>
+          <div class="vinyl">
+            <img src="images/drinks.jpg" alt="" />
+            <h3>Drinks - Hermits on Holiday </h3>
+            <p>
+              $18
+            </p>
+          </div>
+          <div class="vinyl">
+            <img src="images/Urinals.jpg" alt=""/>
+            <h3>Urinals - Negavitive Capability </h3>
+            <p>
+              $10
+            </p>
+          </div>
+          <div class="vinyl">
+            <img src="images/Ulrika.webp" alt=""/>
+            <h3>Ulrika Spacek - Compact Trauma  </h3>
+            <p>
+              $25
+            </p>
+          </div>
+          <div class="vinyl">
+            <img src="images/Deerhunter.jpg" alt=""/>
+            <h3> Deerhunter - Weird Era Cont </h3>
+            <p>
+              $20
+            </p>
+          </div>
+          <div class="vinyl">
+            <img src="images/stereolab_dots_loops.jpg" alt=""/>
+            <h3>Stereolab - Dots And Loops </h3>
+            <p>
+              $30
+            </p>
+          </div>
+          <div class="vinyl">
+            <img src="images/707.jpg" alt=""/>
+            <h3>Women - Public Strain </h3>
+            <p>
+              $12
+            </p>
+          </div>
+          <div class="vinyl">
+            <img src="images/television.jpg" alt=""/>
+            <h3>Television - Adventure </h3>
+            <p>
+              $30
+            </p>
+          </div>
+          <div class="vinyl">
+            <img src="images/meltbanana.jpg" alt=""/>
+            <h3>Melt-Banana - Speak Squeak Creak </h3>
+            <p>
+              $20
+            </p>
+          </div>
+          <a href="#" class="view-more"> View More </a>
+        </div>
+      </div>
+    </section>
+
+    <section id="featured-band">
+      <div class="container">
+        <h2>FEATURED BAND: INSTITUTE </h2>
+        <div class="line"></div>
+        <iframe width="700" height="400" src="https://www.youtube.com/embed/LFEckqYQWoM?si=5YsE2e4O3T2xo40T" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        
+        </div>
+      </div>
+    </section>
+
+    <section id="upcoming-event">
+      <div class="container">
+        <div class="upcoming-content">
+          <h4>UPCOMING EVENTS</h4>
+          <h1>
+            We host shows every weekend! Come hang! 
+          </h1>
+          <p>
+            This weekend on Saturday 18, 2024 we have Omni playing from Atlanta Georgia. 
+          </p>
+          <button class="btn btn-primary">See More</button>
+        </div>
+
+        <div class="upcoming-image">
+          <img src="images/omni (1).jpg" alt="" />
+        </div>
+      </div>
+    </section>
+
+    <section id="volunteer">
+      <div class="container">
+        <h1>VOLUNTEER WORK?</h1>
+        <p>
+          Do you love music? Be a part of the Thrillhouse community. 
+        </p>
+        <button class="btn btn-primary">Learn More</button>
+      </div>
+    </section>
+
+    <footer>
+      <div class="container">
+        <ul class="footer-links">
+          <li><a style="color: #ffffff;"href="index.html">Home</a></li>
+          <li><a style="color: #ffffff;"href="https://twitter.com/thrillhousrecords">Twitter</a></li>
+          <li><a style="color: #ffffff;"href="https://instagram.com/thrillhouse_records">Instagram</a></li>
+          <li><a style="color: #ffffff;"href="contact.html">Contact</a></li>
+        </ul>
+        <img src="/images/TRLogo (3).png" alt="" class="footerLogo" />
+        <p>ThrillHouse Records </p>
+      </div>
+    </footer>
+
+    <script>
+      const navBtn = document.querySelector(".menu-btn");
+      const navList = document.querySelector(".nav-list");
+
+      navBtn.addEventListener("click", function () {
+        navList.classList.toggle("active");
+      });
+    </script>
+  </body>
+</html>
